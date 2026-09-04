@@ -7,7 +7,7 @@ about:
   head: 2474201
   archived: false
   latestVersion: v1.10.1
-  collectedAt: 2026-09-04T19:23:02Z
+  collectedAt: 2026-09-04T21:14:27Z
 timeline:
   created: 2013-02-05
   lastCommit: 2026-08-22
@@ -83,6 +83,59 @@ total:
   openIssue: 31
   commit: 1235
 ---
+path: /home/runner/.x-repo/github.com/x-motemen/ghq
+collectedAt: 2026-09-04T21:14:28Z
+loc:
+  Go:
+    code: 5745
+    comments: 311
+    blanks: 681
+    files: 37
+  AsciiDoc:
+    code: 183
+    comments: 0
+    blanks: 63
+    files: 1
+  Perl:
+    code: 64
+    comments: 2
+    blanks: 6
+    files: 1
+  Fish:
+    code: 57
+    comments: 7
+    blanks: 10
+    files: 1
+  Sh:
+    code: 54
+    comments: 1
+    blanks: 9
+    files: 1
+  Makefile:
+    code: 41
+    comments: 0
+    blanks: 10
+    files: 1
+  Toml:
+    code: 3
+    comments: 1
+    blanks: 0
+    files: 1
+  Yaml:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 367
+    blanks: 137
+    files: 1
+total:
+  code: 6149
+  comments: 689
+  blanks: 916
+  files: 45
 ---
 date: "2026-08-24"
 repo:
