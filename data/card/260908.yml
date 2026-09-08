@@ -5,13 +5,13 @@ about:
   head: 2474201
   archived: false
   latestVersion: "v1.10.1"
-  collectedAt: 2026-09-08T02:00:45Z
+  collectedAt: 2026-09-08T04:43:54Z
 timeline:
   created: 2013-02-05
   lastCommit: 2026-08-22
   lastRelease: 2026-04-11
 popularity:
-  star: 3765
+  star: 3766
   watcher: 34
   fork: 210
   release: 81
@@ -82,7 +82,7 @@ total:
   commit: 1235
 ---
 path: /home/runner/.x-repo/github.com/x-motemen/ghq
-collectedAt: 2026-09-08T02:00:46Z
+collectedAt: 2026-09-08T04:43:55Z
 loc:
   Go:
     code: 5745
