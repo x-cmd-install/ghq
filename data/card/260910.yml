@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.10.1"
   latestRelease: "v1.10.1"
   latestPrerelease: "v0.7-pre"
-  collectedAt: 2026-09-10T21:05:08Z
+  collectedAt: 2026-09-10T22:43:39Z
 timeline:
   created: 2013-02-05
   lastCommit: 2026-08-22
@@ -86,7 +86,7 @@ total:
   commit: 1235
 ---
 path: /home/runner/.x-repo/github.com/x-motemen/ghq
-collectedAt: 2026-09-10T21:05:08Z
+collectedAt: 2026-09-10T22:43:40Z
 loc:
   Go:
     code: 5745
