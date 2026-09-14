@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,767 · **Forks**: 210 · **Open issues**: 137 · **Contributors**: 89
+- **Stars**: 3,769 · **Forks**: 210 · **Open issues**: 137 · **Contributors**: 89
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 5 | 0 | 1 | 0 |
-| last60d | 2026-07-15 | 0 | 1 | 9 | 0 | 1 | 1 |
-| 90d | 2026-06-15 | 0 | 10 | 9 | 2 | 3 | 10 |
-| last180d | 2026-03-17 | 2 | 36 | 10 | 7 | 3 | 44 |
-| 360d | 2025-09-18 | 8 | 68 | 11 | 11 | 5 | 111 |
-| last720d | 2024-09-23 | 12 | 87 | 12 | 14 | 8 | 235 |
+| 30d | 2026-08-15 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 1 | 9 | 0 | 1 | 1 |
+| 90d | 2026-06-16 | 0 | 10 | 9 | 2 | 2 | 10 |
+| last180d | 2026-03-18 | 2 | 34 | 10 | 5 | 3 | 44 |
+| 360d | 2025-09-19 | 8 | 68 | 11 | 11 | 5 | 111 |
+| last720d | 2024-09-24 | 12 | 87 | 12 | 14 | 8 | 235 |
 
 ## Release assets
 
@@ -76,18 +76,6 @@ Lowest-scoring checks:
 | [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_windows_arm64.zip) | 3.6 MiB | `native/win/arm64` |
 | [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.10.1/SHASUMS) | 378 B | `other` |
 
-## Distribution status
-
-Reported by **36** distros on [repology.org](https://repology.org/project/ghq). **14** are ✅ on the latest upstream release, **12** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.10.1` | ✅ latest |
-| Homebrew | `1.10.1` | ✅ latest |
-| Nix unstable | `1.10.1` | ✅ latest |
-| Void | `1.10.1` | ✅ latest |
-| Alpine edge | `1.8.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ghq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -97,4 +85,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:00:08Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:05:23Z._
