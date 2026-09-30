@@ -14,12 +14,12 @@ x install ghq
 
 ## 代码洞察
 
-合计: **6,149** 行代码（覆盖前 5 种语言、共 **41** 个文件）。
+合计: **6,301** 行代码（覆盖前 5 种语言、共 **41** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 5,745 | 311 | 681 | 37 |
-| AsciiDoc | 183 | 0 | 63 | 1 |
+| Go | 5,888 | 361 | 694 | 37 |
+| AsciiDoc | 201 | 0 | 63 | 1 |
 | Perl | 64 | 2 | 6 | 1 |
 | Fish | 57 | 7 | 10 | 1 |
 | Sh | 54 | 1 | 9 | 1 |
@@ -41,40 +41,40 @@ x install ghq
 
 ## 发布
 
-- **最新版本**: `v1.10.1` (2026-04-11)
-- **最近提交**: 2026-08-22
+- **最新版本**: `v1.11.2` (2026-09-29)
+- **最近提交**: 2026-09-29
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 3,778 · **Fork**: 210 · **开放 issue**: 137 · **贡献者**: 89
+- **Star**: 3,779 · **Fork**: 210 · **开放 issue**: 138 · **贡献者**: 90
 
 ## 累计统计
 
-- **发布数**: 81 · **已合并 PR**: 343 · **开放 PR**: 13 · **已关闭 issue**: 106 · **开放 issue**: 31 · **提交数**: 1235
+- **发布数**: 84 · **已合并 PR**: 359 · **开放 PR**: 3 · **已关闭 issue**: 108 · **开放 issue**: 30 · **提交数**: 1275
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-31 | 0 | 1 | 6 | 0 | 1 | 1 |
-| 90d | 2026-07-01 | 0 | 7 | 9 | 1 | 1 | 6 |
-| last180d | 2026-04-02 | 2 | 31 | 10 | 5 | 3 | 39 |
-| 360d | 2025-10-04 | 8 | 68 | 11 | 11 | 5 | 111 |
-| last720d | 2024-10-09 | 12 | 87 | 12 | 14 | 7 | 235 |
+| 30d | 2026-08-31 | 3 | 9 | 0 | 1 | 0 | 18 |
+| last60d | 2026-08-01 | 3 | 13 | 0 | 1 | 1 | 23 |
+| 90d | 2026-07-02 | 3 | 22 | 0 | 2 | 1 | 30 |
+| last180d | 2026-04-03 | 5 | 47 | 0 | 6 | 3 | 63 |
+| 360d | 2025-10-05 | 11 | 84 | 1 | 12 | 5 | 135 |
+| last720d | 2024-10-10 | 15 | 103 | 2 | 16 | 6 | 275 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [ghq_darwin_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_darwin_amd64.zip) | 4.0 MiB | `native/darwin/x64` |
-| [ghq_darwin_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_darwin_arm64.zip) | 3.7 MiB | `native/darwin/arm64` |
-| [ghq_linux_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_linux_amd64.zip) | 3.9 MiB | `native/linux/x64` |
-| [ghq_linux_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_linux_arm64.zip) | 3.6 MiB | `native/linux/arm64` |
-| [ghq_windows_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_windows_amd64.zip) | 4.1 MiB | `native/win/x64` |
-| [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.10.1/ghq_windows_arm64.zip) | 3.6 MiB | `native/win/arm64` |
-| [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.10.1/SHASUMS) | 378 B | `other` |
+| [ghq_darwin_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_darwin_amd64.zip) | 4.1 MiB | `native/darwin/x64` |
+| [ghq_darwin_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_darwin_arm64.zip) | 3.8 MiB | `native/darwin/arm64` |
+| [ghq_linux_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_linux_amd64.zip) | 4.1 MiB | `native/linux/x64` |
+| [ghq_linux_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_linux_arm64.zip) | 3.7 MiB | `native/linux/arm64` |
+| [ghq_windows_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_windows_amd64.zip) | 4.2 MiB | `native/win/x64` |
+| [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_windows_arm64.zip) | 3.7 MiB | `native/win/arm64` |
+| [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.11.2/SHASUMS) | 378 B | `other` |
 
 ## 改进这些数据
 
@@ -85,4 +85,4 @@ ghq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T05:48:48Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T05:44:57Z._
