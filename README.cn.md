@@ -26,12 +26,12 @@ x install ghq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.8 / 10**
+总评分: **5 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -47,7 +47,7 @@ x install ghq
 
 ## 流行度
 
-- **Star**: 3,779 · **Fork**: 210 · **开放 issue**: 138 · **贡献者**: 90
+- **Star**: 3,780 · **Fork**: 210 · **开放 issue**: 138 · **贡献者**: 90
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install ghq
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 3 | 9 | 0 | 1 | 0 | 18 |
-| last60d | 2026-08-01 | 3 | 13 | 0 | 1 | 1 | 23 |
-| 90d | 2026-07-02 | 3 | 22 | 0 | 2 | 1 | 30 |
-| last180d | 2026-04-03 | 5 | 47 | 0 | 6 | 3 | 63 |
-| 360d | 2025-10-05 | 11 | 84 | 1 | 12 | 5 | 135 |
-| last720d | 2024-10-10 | 15 | 103 | 2 | 16 | 6 | 275 |
+| 30d | 2026-09-01 | 3 | 9 | 0 | 1 | 0 | 18 |
+| last60d | 2026-08-02 | 3 | 13 | 0 | 1 | 1 | 23 |
+| 90d | 2026-07-03 | 3 | 22 | 0 | 2 | 1 | 30 |
+| last180d | 2026-04-04 | 5 | 47 | 0 | 6 | 3 | 63 |
+| 360d | 2025-10-06 | 11 | 84 | 1 | 12 | 5 | 135 |
+| last720d | 2024-10-11 | 15 | 103 | 2 | 16 | 6 | 275 |
 
 ## Release 资产
 
@@ -85,4 +85,4 @@ ghq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260930.yml` · 2026-09-30T05:44:57Z._
+_数据快照: `data/card/261001.yml` · 2026-10-01T05:57:32Z._
