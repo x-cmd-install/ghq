@@ -30,8 +30,8 @@ Overall score: **5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
+- **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,792 · **Forks**: 210 · **Open issues**: 140 · **Contributors**: 90
+- **Stars**: 3,793 · **Forks**: 210 · **Open issues**: 140 · **Contributors**: 90
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 3 | 7 | 8 | 1 | 2 | 14 |
-| last60d | 2026-08-23 | 3 | 10 | 8 | 1 | 3 | 18 |
-| 90d | 2026-07-24 | 3 | 15 | 8 | 1 | 3 | 24 |
-| last180d | 2026-04-25 | 3 | 35 | 8 | 5 | 5 | 43 |
-| 360d | 2025-10-27 | 11 | 83 | 9 | 12 | 7 | 134 |
-| last720d | 2024-11-01 | 14 | 100 | 10 | 15 | 8 | 265 |
+| 30d | 2026-09-23 | 3 | 7 | 8 | 1 | 2 | 14 |
+| last60d | 2026-08-24 | 3 | 9 | 8 | 1 | 3 | 18 |
+| 90d | 2026-07-25 | 3 | 15 | 8 | 1 | 3 | 24 |
+| last180d | 2026-04-26 | 3 | 35 | 8 | 5 | 5 | 43 |
+| 360d | 2025-10-28 | 11 | 83 | 9 | 12 | 7 | 134 |
+| last720d | 2024-11-02 | 14 | 100 | 10 | 15 | 8 | 265 |
 
 ## Release assets
 
@@ -76,6 +76,19 @@ Lowest-scoring checks:
 | [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_windows_arm64.zip) | 3.7 MiB | `native/win/arm64` |
 | [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.11.2/SHASUMS) | 378 B | `other` |
 
+## Distribution status
+
+Reported by **37** distros on [repology.org](https://repology.org/project/ghq). **9** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.11.2` | ✅ latest |
+| Homebrew | `1.11.2` | ✅ latest |
+| Nix unstable | `1.10.1` | ⚠️ outdated |
+| Void | `1.10.1` | ⚠️ outdated |
+| Alpine edge | `1.10.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.11.2` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ghq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -85,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:45:49Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:53:30Z._
