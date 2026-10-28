@@ -30,8 +30,8 @@ x install ghq
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -57,12 +57,12 @@ x install ghq
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 3 | 7 | 13 | 1 | 2 | 0 |
-| last60d | 2026-08-28 | 3 | 9 | 13 | 1 | 2 | 18 |
-| 90d | 2026-07-29 | 3 | 13 | 13 | 1 | 3 | 23 |
-| last180d | 2026-04-30 | 3 | 34 | 13 | 5 | 5 | 43 |
-| 360d | 2025-11-01 | 11 | 83 | 14 | 12 | 7 | 134 |
-| last720d | 2024-11-06 | 14 | 100 | 15 | 15 | 8 | 265 |
+| 30d | 2026-09-28 | 3 | 6 | 13 | 1 | 2 | 0 |
+| last60d | 2026-08-29 | 3 | 9 | 13 | 1 | 2 | 18 |
+| 90d | 2026-07-30 | 3 | 13 | 13 | 1 | 3 | 23 |
+| last180d | 2026-05-01 | 3 | 34 | 13 | 5 | 5 | 43 |
+| 360d | 2025-11-02 | 11 | 83 | 14 | 12 | 7 | 134 |
+| last720d | 2024-11-07 | 14 | 100 | 15 | 15 | 8 | 265 |
 
 ## Release 资产
 
@@ -98,4 +98,4 @@ ghq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:05:13Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T05:41:27Z._
