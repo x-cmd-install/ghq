@@ -1,36 +1,43 @@
-- repo: homebrew
+- repo: nix_stable_24_05
   srcname: ghq
   visiblename: ghq
-  version: 1.11.2
+  version: 1.6.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
-- repo: homebrew
-  srcname: ghq
-  visiblename: ghq
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Remote repository management made easy
-- repo: scoop
-  subrepo: main
-  binname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: null
-  status: newest
+  maintainers:
+    - yann.hodique@gmail.com
   licenses:
     - MIT
-- repo: termux
+- repo: homebrew
   srcname: ghq
-  binname: ghq
   visiblename: ghq
   version: 1.11.2
   origversion: null
   status: newest
-  summary: Manage remote repository clones, like go get does
+  summary: Remote repository management made easy
+- repo: nix_stable_24_11
+  srcname: ghq
+  visiblename: ghq
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  summary: Remote repository management made easy
   maintainers:
-    - gouranga.das.khulna@gmail.com
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: newest
+  summary: Remote repository management made easy
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: ghq
@@ -94,17 +101,6 @@
   summary: Zsh completions for ghq
   maintainers:
     - folliekazetani@protonmail.com
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: ghq
-  binname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: newest
-  summary: Remote repository management made easy
   licenses:
     - MIT
 - repo: freebsd
@@ -185,6 +181,13 @@
   origversion: null
   status: outdated
   summary: Manage remote repository clones
+- repo: homebrew
+  srcname: ghq
+  visiblename: ghq
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Remote repository management made easy
 - repo: liguros_stable
   srcname: app-misc/ghq
   visiblename: app-misc/ghq
@@ -343,28 +346,6 @@
   summary: Remote repository management made easy
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: ghq
-  visiblename: ghq
-  version: 1.6.1
-  origversion: null
-  status: outdated
-  summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: ghq
-  visiblename: ghq
-  version: 1.6.3
-  origversion: null
-  status: outdated
-  summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_25_05
   srcname: ghq
   visiblename: ghq
@@ -439,6 +420,25 @@
   summary: Remote repository management made easy
   licenses:
     - MIT
+- repo: scoop
+  subrepo: main
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: termux
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: null
+  status: newest
+  summary: Manage remote repository clones, like go get does
+  maintainers:
+    - gouranga.das.khulna@gmail.com
 - repo: void_x86_64
   subrepo: x86_64
   srcname: ghq
