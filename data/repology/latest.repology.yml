@@ -9,13 +9,6 @@
     - yann.hodique@gmail.com
   licenses:
     - MIT
-- repo: homebrew
-  srcname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: null
-  status: newest
-  summary: Remote repository management made easy
 - repo: nix_stable_24_11
   srcname: ghq
   visiblename: ghq
@@ -27,15 +20,35 @@
     - yann.hodique@gmail.com
   licenses:
     - MIT
-- repo: arch
-  subrepo: extra
+- repo: nix_stable_25_05
   srcname: ghq
+  visiblename: ghq
+  version: 1.8.0
+  origversion: null
+  status: outdated
+  summary: Remote repository management made easy
+  maintainers:
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: ghq
+  visiblename: ghq
+  version: 1.8.0
+  origversion: null
+  status: outdated
+  summary: Remote repository management made easy
+  maintainers:
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
   binname: ghq
   visiblename: ghq
   version: 1.11.2
-  origversion: 1.11.2-1
+  origversion: null
   status: newest
-  summary: Remote repository management made easy
   licenses:
     - MIT
 - repo: alpine_edge
@@ -44,7 +57,7 @@
   binname: ghq
   visiblename: ghq
   version: 1.10.1
-  origversion: 1.10.1-r0
+  origversion: 1.10.1-r1
   status: outdated
   summary: CLI to manage remote repository clones
   maintainers:
@@ -57,7 +70,7 @@
   binname: ghq-bash-completion
   visiblename: ghq-bash-completion
   version: 1.10.1
-  origversion: 1.10.1-r0
+  origversion: 1.10.1-r1
   status: outdated
   summary: Bash completions for ghq
   maintainers:
@@ -70,7 +83,7 @@
   binname: ghq-doc
   visiblename: ghq-doc
   version: 1.10.1
-  origversion: 1.10.1-r0
+  origversion: 1.10.1-r1
   status: outdated
   summary: CLI to manage remote repository clones (documentation)
   maintainers:
@@ -83,7 +96,7 @@
   binname: ghq-fish-completion
   visiblename: ghq-fish-completion
   version: 1.10.1
-  origversion: 1.10.1-r0
+  origversion: 1.10.1-r1
   status: outdated
   summary: Fish completions for ghq
   maintainers:
@@ -96,11 +109,22 @@
   binname: ghq-zsh-completion
   visiblename: ghq-zsh-completion
   version: 1.10.1
-  origversion: 1.10.1-r0
+  origversion: 1.10.1-r1
   status: outdated
   summary: Zsh completions for ghq
   maintainers:
     - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: newest
+  summary: Remote repository management made easy
   licenses:
     - MIT
 - repo: freebsd
@@ -181,6 +205,13 @@
   origversion: null
   status: outdated
   summary: Manage remote repository clones
+- repo: homebrew
+  srcname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: null
+  status: newest
+  summary: Remote repository management made easy
 - repo: homebrew
   srcname: ghq
   visiblename: ghq
@@ -324,50 +355,6 @@
   summary: Remote repository management made easy
   licenses:
     - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ghq
-  binname: ghq
-  visiblename: ghq
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
-  summary: Remote repository management made easy
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ghq
-  binname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: newest
-  summary: Remote repository management made easy
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: ghq
-  visiblename: ghq
-  version: 1.8.0
-  origversion: null
-  status: outdated
-  summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: ghq
-  visiblename: ghq
-  version: 1.8.0
-  origversion: null
-  status: outdated
-  summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: ghq
   visiblename: ghq
@@ -420,15 +407,6 @@
   summary: Remote repository management made easy
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
-  binname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: termux
   srcname: ghq
   binname: ghq
@@ -450,5 +428,27 @@
   summary: Remote repository management made easy
   maintainers:
     - orphan@voidlinux.org
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  summary: Remote repository management made easy
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: newest
+  summary: Remote repository management made easy
   licenses:
     - MIT
