@@ -1,3 +1,14 @@
+- repo: nix_stable_24_05
+  srcname: ghq
+  visiblename: ghq
+  version: 1.6.1
+  origversion: null
+  status: outdated
+  summary: Remote repository management made easy
+  maintainers:
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
   srcname: ghq
   visiblename: ghq
@@ -9,13 +20,28 @@
     - yann.hodique@gmail.com
   licenses:
     - MIT
-- repo: homebrew
+- repo: nix_stable_25_05
   srcname: ghq
   visiblename: ghq
-  version: HEAD
+  version: 1.8.0
   origversion: null
-  status: rolling
+  status: outdated
   summary: Remote repository management made easy
+  maintainers:
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: ghq
+  visiblename: ghq
+  version: 1.8.0
+  origversion: null
+  status: outdated
+  summary: Remote repository management made easy
+  maintainers:
+    - yann.hodique@gmail.com
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: ghq
@@ -88,7 +114,7 @@
   visiblename: ghq
   version: 1.11.2
   origversion: 1.11.2-1
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   licenses:
     - MIT
@@ -98,7 +124,7 @@
   visiblename: devel/ghq
   version: 1.11.2
   origversion: 1.11.2_2
-  status: newest
+  status: outdated
   summary: Repository management tool (Git, Hg, SVN, Fossil, Bazaar, Darcs)
   maintainers:
     - driesm@freebsd.org
@@ -139,7 +165,7 @@
   visiblename: app-misc/ghq
   version: 1.11.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   maintainers:
     - guru@gentoo.org
@@ -160,21 +186,17 @@
 - repo: homebrew
   srcname: ghq
   visiblename: ghq
-  version: 1.11.2
+  version: 1.12.0
   origversion: null
   status: newest
   summary: Remote repository management made easy
-- repo: nix_stable_24_05
+- repo: homebrew
   srcname: ghq
   visiblename: ghq
-  version: 1.6.1
+  version: HEAD
   origversion: null
-  status: outdated
+  status: rolling
   summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: app-misc/ghq
   visiblename: app-misc/ghq
@@ -262,7 +284,7 @@
   visiblename: app-misc/ghq
   version: 1.11.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   maintainers:
     - fallback-mnt-liguros@repology
@@ -278,7 +300,7 @@
   visiblename: ghq
   version: 1.11.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   maintainers:
     - judaew@macports
@@ -294,30 +316,8 @@
   visiblename: ghq
   version: 1.11.2
   origversion: 1.11.2-1
-  status: newest
-  summary: Remote repository management made easy
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: ghq
-  visiblename: ghq
-  version: 1.8.0
-  origversion: null
   status: outdated
   summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: ghq
-  visiblename: ghq
-  version: 1.8.0
-  origversion: null
-  status: outdated
-  summary: Remote repository management made easy
-  maintainers:
-    - yann.hodique@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -355,7 +355,7 @@
   visiblename: ghq
   version: 1.11.2
   origversion: 1.11.2-1.1
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   licenses:
     - MIT
@@ -368,7 +368,7 @@
   visiblename: ghq
   version: 1.11.2
   origversion: 1.11.2-1
-  status: newest
+  status: outdated
   summary: Remote repository management made easy
   licenses:
     - MIT
@@ -376,7 +376,7 @@
   subrepo: main
   binname: ghq
   visiblename: ghq
-  version: 1.11.2
+  version: 1.12.0
   origversion: null
   status: newest
   licenses:
@@ -385,7 +385,7 @@
   srcname: ghq
   binname: ghq
   visiblename: ghq
-  version: 1.11.2
+  version: 1.12.0
   origversion: null
   status: newest
   summary: Manage remote repository clones, like go get does
