@@ -14,12 +14,12 @@ x install ghq
 
 ## Code insight
 
-Total: **6,301** lines of code across **41** files in the top 5 languages.
+Total: **6,982** lines of code across **41** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 5,888 | 361 | 694 | 37 |
-| AsciiDoc | 201 | 0 | 63 | 1 |
+| Go | 6,550 | 373 | 726 | 37 |
+| AsciiDoc | 220 | 0 | 67 | 1 |
 | Perl | 64 | 2 | 6 | 1 |
 | Fish | 57 | 7 | 10 | 1 |
 | Sh | 54 | 1 | 9 | 1 |
@@ -41,8 +41,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.11.2` (2026-09-29)
-- **Last commit**: 2026-09-29
+- **Latest**: `v1.12.0` (2026-11-03)
+- **Last commit**: 2026-11-03
 - **Assets in release**: 7
 
 ## Popularity
@@ -51,43 +51,43 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 84 · **Merged PRs**: 359 · **Open PRs**: 18 · **Closed issues**: 108 · **Open issues**: 32 · **Commits**: 1275
+- **Releases**: 85 · **Merged PRs**: 383 · **Open PRs**: 10 · **Closed issues**: 110 · **Open issues**: 30 · **Commits**: 1326
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 14 | 0 | 2 | 0 |
-| last60d | 2026-09-04 | 3 | 8 | 15 | 1 | 2 | 14 |
-| 90d | 2026-08-05 | 3 | 13 | 15 | 1 | 3 | 23 |
-| last180d | 2026-05-07 | 3 | 34 | 15 | 4 | 5 | 40 |
-| 360d | 2025-11-08 | 11 | 83 | 16 | 12 | 7 | 134 |
-| last720d | 2024-11-13 | 12 | 92 | 17 | 15 | 8 | 247 |
+| 30d | 2026-10-05 | 1 | 22 | 7 | 1 | 1 | 26 |
+| last60d | 2026-09-05 | 4 | 32 | 7 | 2 | 1 | 41 |
+| 90d | 2026-08-06 | 4 | 37 | 7 | 2 | 2 | 50 |
+| last180d | 2026-05-08 | 4 | 58 | 7 | 5 | 4 | 67 |
+| 360d | 2025-11-09 | 12 | 107 | 8 | 13 | 6 | 161 |
+| last720d | 2024-11-14 | 13 | 116 | 9 | 16 | 7 | 298 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [ghq_darwin_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_darwin_amd64.zip) | 4.1 MiB | `native/darwin/x64` |
-| [ghq_darwin_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_darwin_arm64.zip) | 3.8 MiB | `native/darwin/arm64` |
-| [ghq_linux_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_linux_amd64.zip) | 4.1 MiB | `native/linux/x64` |
-| [ghq_linux_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_linux_arm64.zip) | 3.7 MiB | `native/linux/arm64` |
-| [ghq_windows_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_windows_amd64.zip) | 4.2 MiB | `native/win/x64` |
-| [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.11.2/ghq_windows_arm64.zip) | 3.7 MiB | `native/win/arm64` |
-| [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.11.2/SHASUMS) | 378 B | `other` |
+| [ghq_darwin_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_darwin_amd64.zip) | 4.4 MiB | `native/darwin/x64` |
+| [ghq_darwin_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_darwin_arm64.zip) | 4.0 MiB | `native/darwin/arm64` |
+| [ghq_linux_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_linux_amd64.zip) | 4.3 MiB | `native/linux/x64` |
+| [ghq_linux_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_linux_arm64.zip) | 3.9 MiB | `native/linux/arm64` |
+| [ghq_windows_amd64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_windows_amd64.zip) | 4.5 MiB | `native/win/x64` |
+| [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_windows_arm64.zip) | 4.0 MiB | `native/win/arm64` |
+| [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.12.0/SHASUMS) | 378 B | `other` |
 
 ## Distribution status
 
-Reported by **33** distros on [repology.org](https://repology.org/project/ghq). **11** are ✅ on the latest upstream release, **14** are ⚠️ on an older version.
+Reported by **33** distros on [repology.org](https://repology.org/project/ghq). **3** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `1.11.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Arch | `1.11.2` | ⚠️ outdated |
+| Homebrew | `1.12.0` | ✅ latest |
 | Nix unstable | `1.10.1` | ⚠️ outdated |
 | Void | `1.10.1` | ⚠️ outdated |
 | Alpine edge | `1.10.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.11.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.11.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:53:19Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:25:56Z._
