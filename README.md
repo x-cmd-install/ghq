@@ -14,7 +14,7 @@ x install ghq
 
 ## Code insight
 
-Total: **6,982** lines of code across **41** files in the top 5 languages.
+Total: **6,980** lines of code across **41** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,7 +22,7 @@ Total: **6,982** lines of code across **41** files in the top 5 languages.
 | AsciiDoc | 220 | 0 | 67 | 1 |
 | Perl | 64 | 2 | 6 | 1 |
 | Fish | 57 | 7 | 10 | 1 |
-| Sh | 54 | 1 | 9 | 1 |
+| Sh | 52 | 1 | 9 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.12.0` (2026-11-03)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-04
 - **Assets in release**: 7
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 383 · **Open PRs**: 10 · **Closed issues**: 110 · **Open issues**: 30 · **Commits**: 1326
+- **Releases**: 85 · **Merged PRs**: 384 · **Open PRs**: 9 · **Closed issues**: 111 · **Open issues**: 29 · **Commits**: 1331
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 22 | 7 | 1 | 1 | 26 |
-| last60d | 2026-09-05 | 4 | 32 | 7 | 2 | 1 | 41 |
-| 90d | 2026-08-06 | 4 | 37 | 7 | 2 | 2 | 50 |
-| last180d | 2026-05-08 | 4 | 58 | 7 | 5 | 4 | 67 |
-| 360d | 2025-11-09 | 12 | 107 | 8 | 13 | 6 | 161 |
-| last720d | 2024-11-14 | 13 | 116 | 9 | 16 | 7 | 298 |
+| 30d | 2026-10-06 | 1 | 23 | 6 | 1 | 1 | 30 |
+| last60d | 2026-09-06 | 4 | 33 | 6 | 2 | 1 | 45 |
+| 90d | 2026-08-07 | 4 | 38 | 6 | 2 | 2 | 54 |
+| last180d | 2026-05-09 | 4 | 59 | 6 | 5 | 4 | 71 |
+| 360d | 2025-11-10 | 12 | 108 | 7 | 13 | 6 | 165 |
+| last720d | 2024-11-15 | 13 | 117 | 8 | 16 | 7 | 303 |
 
 ## Release assets
 
@@ -76,19 +76,6 @@ Lowest-scoring checks:
 | [ghq_windows_arm64.zip](https://github.com/x-motemen/ghq/releases/download/v1.12.0/ghq_windows_arm64.zip) | 4.0 MiB | `native/win/arm64` |
 | [SHASUMS](https://github.com/x-motemen/ghq/releases/download/v1.12.0/SHASUMS) | 378 B | `other` |
 
-## Distribution status
-
-Reported by **33** distros on [repology.org](https://repology.org/project/ghq). **3** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.11.2` | ⚠️ outdated |
-| Homebrew | `1.12.0` | ✅ latest |
-| Nix unstable | `1.10.1` | ⚠️ outdated |
-| Void | `1.10.1` | ⚠️ outdated |
-| Alpine edge | `1.10.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.11.2` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ghq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -98,4 +85,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:25:56Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:50:13Z._
