@@ -1,11 +1,29 @@
-- repo: gnuguix
+- repo: arch
+  subrepo: extra
   srcname: ghq
   binname: ghq
   visiblename: ghq
-  version: 1.7.1
-  origversion: null
+  version: 1.11.2
+  origversion: 1.11.2-1
   status: outdated
-  summary: Manage remote repository clones
+  summary: Remote repository management made easy
+  licenses:
+    - MIT
+- repo: gentoo_ovl_guru
+  srcname: app-misc/ghq
+  visiblename: app-misc/ghq
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Remote repository management made easy
+  maintainers:
+    - guru@gentoo.org
+  licenses:
+    - MIT
+    - BSD-2
+    - BSD
+  categories:
+    - app-misc
 - repo: alpine_edge
   subrepo: community
   srcname: ghq
@@ -71,17 +89,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT
-- repo: arch
-  subrepo: extra
-  srcname: ghq
-  binname: ghq
-  visiblename: ghq
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: outdated
-  summary: Remote repository management made easy
-  licenses:
-    - MIT
 - repo: freebsd
   srcname: devel/ghq
   binname: ghq
@@ -97,24 +104,9 @@
 - repo: gentoo_ovl_guru
   srcname: app-misc/ghq
   visiblename: app-misc/ghq
-  version: 1.10.1
+  version: 1.12.0
   origversion: null
-  status: legacy
-  summary: Remote repository management made easy
-  maintainers:
-    - guru@gentoo.org
-  licenses:
-    - MIT
-    - BSD-2
-    - BSD
-  categories:
-    - app-misc
-- repo: gentoo_ovl_guru
-  srcname: app-misc/ghq
-  visiblename: app-misc/ghq
-  version: "9999"
-  origversion: null
-  status: rolling
+  status: newest
   summary: Remote repository management made easy
   maintainers:
     - guru@gentoo.org
@@ -129,7 +121,7 @@
   visiblename: app-misc/ghq
   version: 1.11.2
   origversion: null
-  status: outdated
+  status: legacy
   summary: Remote repository management made easy
   maintainers:
     - guru@gentoo.org
@@ -139,6 +131,14 @@
     - BSD
   categories:
     - app-misc
+- repo: gnuguix
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.7.1
+  origversion: null
+  status: outdated
+  summary: Manage remote repository clones
 - repo: homebrew
   srcname: ghq
   visiblename: ghq
@@ -208,6 +208,21 @@
 - repo: liguros_develop
   srcname: app-misc/ghq
   visiblename: app-misc/ghq
+  version: 1.12.0
+  origversion: null
+  status: newest
+  summary: Remote repository management made easy
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+    - BSD-2
+    - BSD
+  categories:
+    - app-misc
+- repo: liguros_develop
+  srcname: app-misc/ghq
+  visiblename: app-misc/ghq
   version: "9999"
   origversion: null
   status: rolling
@@ -223,24 +238,9 @@
 - repo: liguros_develop
   srcname: app-misc/ghq
   visiblename: app-misc/ghq
-  version: 1.10.1
-  origversion: null
-  status: legacy
-  summary: Remote repository management made easy
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - MIT
-    - BSD-2
-    - BSD
-  categories:
-    - app-misc
-- repo: liguros_develop
-  srcname: app-misc/ghq
-  visiblename: app-misc/ghq
   version: 1.11.2
   origversion: null
-  status: outdated
+  status: legacy
   summary: Remote repository management made easy
   maintainers:
     - fallback-mnt-liguros@repology
@@ -265,6 +265,28 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: outdated
+  summary: Remote repository management made easy
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghq
+  binname: ghq
+  visiblename: ghq
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: outdated
+  summary: Remote repository management made easy
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: ghq
