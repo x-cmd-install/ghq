@@ -26,13 +26,13 @@ Total: **6,980** lines of code across **41** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5 / 10**
+Overall score: **4.2 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 0/5 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,807 · **Forks**: 212 · **Open issues**: 140 · **Contributors**: 90
+- **Stars**: 3,808 · **Forks**: 212 · **Open issues**: 140 · **Contributors**: 90
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 23 | 11 | 1 | 1 | 24 |
-| last60d | 2026-09-11 | 4 | 33 | 11 | 2 | 1 | 45 |
-| 90d | 2026-08-12 | 4 | 37 | 11 | 2 | 2 | 52 |
-| last180d | 2026-05-14 | 4 | 55 | 11 | 5 | 4 | 70 |
-| 360d | 2025-11-15 | 12 | 108 | 12 | 13 | 6 | 165 |
-| last720d | 2024-11-20 | 13 | 117 | 13 | 16 | 7 | 303 |
+| 30d | 2026-10-12 | 1 | 23 | 11 | 1 | 1 | 24 |
+| last60d | 2026-09-12 | 4 | 33 | 11 | 2 | 1 | 45 |
+| 90d | 2026-08-13 | 4 | 37 | 11 | 2 | 2 | 52 |
+| last180d | 2026-05-15 | 4 | 55 | 11 | 5 | 4 | 70 |
+| 360d | 2025-11-16 | 12 | 108 | 12 | 13 | 6 | 165 |
+| last720d | 2024-11-21 | 13 | 117 | 13 | 16 | 7 | 303 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:27:58Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:12:25Z._
