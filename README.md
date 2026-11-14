@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,811 · **Forks**: 212 · **Open issues**: 140 · **Contributors**: 90
+- **Stars**: 3,812 · **Forks**: 212 · **Open issues**: 140 · **Contributors**: 90
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 17 | 11 | 1 | 1 | 24 |
-| last60d | 2026-09-14 | 4 | 32 | 11 | 2 | 1 | 45 |
-| 90d | 2026-08-15 | 4 | 36 | 11 | 2 | 2 | 52 |
-| last180d | 2026-05-17 | 4 | 55 | 11 | 5 | 4 | 70 |
-| 360d | 2025-11-18 | 12 | 108 | 12 | 13 | 6 | 165 |
-| last720d | 2024-11-23 | 13 | 117 | 13 | 16 | 7 | 303 |
+| 30d | 2026-10-15 | 1 | 17 | 11 | 1 | 1 | 24 |
+| last60d | 2026-09-15 | 4 | 32 | 11 | 2 | 1 | 45 |
+| 90d | 2026-08-16 | 4 | 36 | 11 | 2 | 2 | 52 |
+| last180d | 2026-05-18 | 4 | 55 | 11 | 5 | 4 | 70 |
+| 360d | 2025-11-19 | 12 | 108 | 12 | 13 | 6 | 165 |
+| last720d | 2024-11-24 | 13 | 117 | 13 | 16 | 7 | 303 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:48:41Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:30:15Z._
