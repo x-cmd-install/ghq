@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 1 | 16 | 13 | 0 | 0 | 18 |
-| last60d | 2026-09-23 | 4 | 32 | 13 | 2 | 1 | 32 |
-| 90d | 2026-08-24 | 4 | 34 | 13 | 2 | 2 | 49 |
-| last180d | 2026-05-26 | 4 | 55 | 13 | 4 | 4 | 69 |
-| 360d | 2025-11-27 | 12 | 108 | 14 | 13 | 6 | 165 |
-| last720d | 2024-12-02 | 13 | 117 | 15 | 16 | 7 | 303 |
+| 30d | 2026-10-24 | 1 | 15 | 13 | 0 | 0 | 18 |
+| last60d | 2026-09-24 | 4 | 32 | 13 | 2 | 1 | 32 |
+| 90d | 2026-08-25 | 4 | 34 | 13 | 2 | 2 | 49 |
+| last180d | 2026-05-27 | 4 | 55 | 13 | 4 | 4 | 69 |
+| 360d | 2025-11-28 | 12 | 108 | 14 | 13 | 6 | 165 |
+| last720d | 2024-12-03 | 13 | 117 | 15 | 16 | 7 | 303 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:20:11Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T09:13:53Z._
