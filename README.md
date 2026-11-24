@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,823 · **Forks**: 212 · **Open issues**: 140 · **Contributors**: 90
+- **Stars**: 3,826 · **Forks**: 213 · **Open issues**: 140 · **Contributors**: 90
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 15 | 13 | 0 | 0 | 18 |
-| last60d | 2026-09-24 | 4 | 32 | 13 | 2 | 1 | 32 |
-| 90d | 2026-08-25 | 4 | 34 | 13 | 2 | 2 | 49 |
-| last180d | 2026-05-27 | 4 | 55 | 13 | 4 | 4 | 69 |
-| 360d | 2025-11-28 | 12 | 108 | 14 | 13 | 6 | 165 |
-| last720d | 2024-12-03 | 13 | 117 | 15 | 16 | 7 | 303 |
+| 30d | 2026-10-25 | 1 | 12 | 13 | 0 | 0 | 18 |
+| last60d | 2026-09-25 | 4 | 32 | 13 | 2 | 1 | 32 |
+| 90d | 2026-08-26 | 4 | 34 | 13 | 2 | 2 | 49 |
+| last180d | 2026-05-28 | 4 | 54 | 13 | 4 | 4 | 69 |
+| 360d | 2025-11-29 | 12 | 108 | 14 | 13 | 5 | 165 |
+| last720d | 2024-12-04 | 13 | 117 | 15 | 16 | 7 | 303 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **35** distros on [repology.org](https://repology.org/project/ghq). **7** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
+Reported by **35** distros on [repology.org](https://repology.org/project/ghq). **8** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **35** distros on [repology.org](https://repology.org/project/ghq). 
 | Nix unstable | `1.12.0` | ✅ latest |
 | Void | `1.10.1` | ⚠️ outdated |
 | Alpine edge | `1.10.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.11.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.12.0` | ✅ latest |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for ghq lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:13:53Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:31:01Z._
